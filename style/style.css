@@ -1,0 +1,248 @@
+*{
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins-regular";
+}
+.lock{
+    overflow: hidden;
+}
+ul, p, ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1563px;
+    margin: 0 auto;
+    padding: 0 19px;
+}
+.header-container{
+    width: 100%;
+    max-width: 1797px;
+    margin: 0 auto;
+    padding: 0 19px;
+}
+
+/* header */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: #fff;
+}
+.header::before{
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.header-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+}
+.burger{
+    display: none;
+    position: relative;
+}
+
+.header-item-1{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+.header-item-2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-item-1-logo{
+    position: relative;
+    z-index: 100;
+    margin-right: 156px;
+
+}
+.header-item-1-logo img{
+    width: 100%;
+}
+
+.header-ul{
+    position: relative;
+    z-index: 100;
+    /* width: 100%; */
+}
+.header-ul-flex{
+    display: flex;
+}
+.header-li{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222222;
+    margin-right: 39px;
+    cursor: pointer;
+    font-family: "poppins-medium";
+}
+.header-li:last-child{
+    margin-right: 10px;
+}
+
+.header-item-2-button{
+    margin-right: 50px;
+}
+.header-button{
+    padding: 6px 22px;
+    background-color: #ff3c2d;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "poppins-regular";
+}
+.header-item-2-icons-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header-right{
+    position: relative;
+    z-index: 100;
+    display: flex;
+}
+.header-item-2-icons-li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 19px;
+    cursor: pointer;
+}
+.header-item-2-icons-li:last-child{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+/* Modificators */
+
+.main-bg-button-block{
+    max-width: 100%;
+    font-size: 17px;
+}
+.group-width{
+    width: 100%;
+    max-width: 215px;
+    text-align: center;
+}
+.padding-main-bg{
+    padding: 10px 45px;
+}
+.black{
+    position: relative;
+    z-index: 1;
+    background-color: #222222;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+.black::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10000%;
+    z-index: -1;
+    width: 10000%;
+    height: 100%;
+    background-color: #222222;
+}
+.grey{
+    position: relative;
+    padding-right: 81px;
+    text-align: right;
+    background-color: #f6f6f6;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+.grey::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10000%;
+    z-index: -1;
+    width: 10000%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+.white{
+    color: #fff;
+}
+.title-black{
+    color: #222222;
+}
+.num-ccc{
+    color: #cccccc;
+}
+.bb-d6d6d6{
+    border-bottom: 1px solid #d6d6d6;
+}
+.padding-left{
+    padding-left: 30px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+/* fonts */
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppins-medium";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins-Light";
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "proximanova";
+    src: url(../fonts/proximanova_regular.ttf);
+}
+@font-face {
+    font-family: "poppins-semibold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "tahu";
+    src: url(../fonts/Tahu!.ttf);
+}

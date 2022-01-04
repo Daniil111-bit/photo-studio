@@ -1,0 +1,358 @@
+
+@media screen and (max-width: 1440px) {
+    .pics-blocks-inner{
+        flex-direction: column;
+    }
+    .pics-block-item{
+        width: 100%;
+    }
+    .item-right{
+        display: none;
+    }
+}
+@media screen and (max-width: 1394px) {
+    .blog-card-data-block{
+        flex-direction: column;
+    }
+    .our-blog-inner{
+        padding: 41px 0;
+    }
+}
+@media screen and (max-width: 1288px) {
+    .header-item-1-logo{
+        margin-right: 50px;
+    }
+    .header-ul li{
+        font-size: 14px;
+    }
+    .header-item-2-button{
+    }
+}
+@media screen and (max-width: 1166px) {
+    .group-inner{
+        flex-direction: column;
+    }
+    .group-item{
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .black::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .grey::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .number-item{
+        justify-content: space-between;
+        padding-left: 0;
+        min-width: 0;
+    }
+    .number-title{
+        text-align: right;
+        bottom: 0px;
+    }
+    .number-num{
+        text-align: center;
+        font-size: 65px;
+        left: 0px;
+        bottom: 0px;
+    }
+    .num-left{
+        left: 0px;
+        bottom: 0px;
+    }
+    .map-inner{
+        width: 100%;
+        padding-right: 0;
+    }
+    .input-block{
+        max-width: 100%;
+    }
+    .pics-li{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .obj-item{
+        padding: 75px 0;
+    }
+    .obj-title-block{
+        flex-direction: column;
+    }
+    .obj-title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1082px) {
+    .footer-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 824px) {
+    .clients-cards-wrapper{
+        width: 50%;
+    }
+    .thahu-card-wrapper{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .blog-cards-wrapper{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pics-inner{
+        padding: 80px 0;
+    }
+    .pics-card-absolute{
+        display: none;
+    }
+    .pics-title{
+        margin-bottom: 35px;
+    }
+    .pics-ul{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .pics-li{
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .why-inner{
+        padding-top: 41px;
+    }
+    .black-block-why{
+        padding: 15px;
+    }
+    
+}
+@media screen and (max-width: 632px) {
+    .header-inner{
+        padding: 13px 0;
+    }
+    .header-item-2{
+    }
+    
+    .header-item-2-button{
+        display: none;
+    }
+    .header-item-2-icons-ul{
+        display: none;
+    }
+}
+@media screen and (max-width: 584px) {
+    .mai-bg-inner-title{
+        font-size: 50px;
+    }
+    .map-title{
+        font-size: 30px;
+    }
+    .map-text{
+        font-size: 15px;
+    }
+    .input-block{
+        flex-direction: column;
+    }
+    .map-button{
+        height: 45px;
+    }
+    .obj-title{
+        font-size: 30px
+    }
+    .blog-cards-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+    .header-item-2{
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 574px) {
+    .header-item-2{
+        flex-direction: column;
+    }
+    
+    .pics-block-item-card-wrapper{
+        width: 100%;
+    }
+    .pics-title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .clients-card-block-1{
+        flex-direction: column;
+    }
+    .clients-card-block-2{
+        padding: 0;
+    }
+    .clients-card-block-text::before{
+        display: none;
+    }
+}
+   
+@media screen and (max-width: 425px) {
+    .black, .grey{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .number-item{
+        text-align: right;
+    }
+    .group-title{
+        margin-bottom: 60px;
+    }
+    .clients-title{
+        font-size: 30px;
+    }
+    .clients-subtitle{
+        margin-bottom: 36px;
+    }
+    .clients{
+        padding: 41px 0;
+    }
+   .clients-cards-wrapper{
+       width: 100%;
+   }
+    .thahu-card-wrapper{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .why-title{
+        text-align: center;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .thahu-5{
+        margin-bottom: 40px;
+    }
+    .blog-cards{
+        margin-bottom: 27px;
+    }
+    .blog-block-text{
+        text-align: center;
+    }
+    .footer-block{
+        margin-bottom: 10px;
+    }
+    .footer-li .border-red{
+        border-bottom: none;
+    }
+    .font-size-30{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .map-title{
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+ }
+@media screen and (max-width: 368px) {
+   .mai-bg-inner-title{
+       font-size: 40px;
+   }
+}
+
+
+
+/* burger */
+
+@media screen and (max-width: 1082px) {
+    .header-item-2{
+        justify-content: flex-end;
+        /* align-items: flex-end; */
+    }
+    .header-ul{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: auto;
+        background-color: #fff;
+        z-index: 50;
+        transition: .3s;
+        padding-top: 100px;
+    }
+    .header-ul li{
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    .header-ul li:last-child{
+        margin-right: 0;
+    }
+    .header-ul-flex{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 30px;
+        padding-top: 65px;
+    }
+    .header-ul.active{
+        height: 100%;
+        top: 0;
+    }
+    .burger{
+        position: relative;
+        z-index: 100;
+        display: block;
+        width: 40px;
+        height: 30px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .burger-line.active{
+        transform: scale(0);
+    }
+    .burger.active{
+    }
+    .burger::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: "";
+        background-color: #000;
+    }
+    .burger.active.burger::after{
+        transform: rotate(-45deg);
+        bottom: 60%;
+    }
+    .burger.active.burger::before{
+        transform: rotate(45deg);
+        top: 50%;
+    }
+    .burger::after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: "";
+        background-color: #000;
+    }
+    .burger-line{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+    }
+}

@@ -1,0 +1,136 @@
+/* pics */
+
+.pics-inner{
+    padding: 120px 0;
+}
+.pics-title{
+    font-size: 50px;
+    color: #222222;
+    font-family: "poppins-semibold";
+    text-align: center;
+    margin-bottom: 53px;
+    line-height: 45px;
+}
+.pics-ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.pics-li{
+    position: relative;
+    color: #ababab;
+    font-size: 18px;
+    padding: 0 22.5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.pics-li:hover{
+    color: #222222;
+}
+.li-span{
+    transition: .5s;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #ff3c2d;
+}
+.pics-li:hover .li-span{
+    width: 100%;
+    left: 0;
+}
+
+.pics-blocks-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.pics-block-item{
+    width: calc(50% - 10px);
+}
+
+.pics-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.pics-block-item-card-wrapper{
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.pics-block-item-card-item{
+    position: relative;
+}
+.pics-block-item-card-item:hover .pics-card-absolute{
+    opacity: 1;
+}
+.pics-card-absolute{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    opacity: 0;
+    transition: .3s;
+}
+.pics-card-button{
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.button-title-block{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .9);
+}
+.button-title{
+    font-size: 18px;
+    color: #fff;
+    margin-right: 15px;
+}
+.pics-img-wrapper{
+    width: 100%;
+    font-size: 0;
+}
+.pics-img-wrapper img{
+    width: 100%;
+    min-height: 100%;
+}
+.pics-block-item-button-wrapper{
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+.pics-block-item-button-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+.pics-block-item-button-item:hover{
+    background-color: #d9d9d9;
+}
+.item-right{
+    overflow: hidden;
+}
+.pics-item-right-img{
+    width: auto;
+    height: 100%;
+}

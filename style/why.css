@@ -1,0 +1,90 @@
+/* why */
+
+.why{
+    background-color: #f6f6f6;
+}
+.why-inner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 78px;
+}
+.why-item{
+    margin-bottom: 60px;
+}
+.why-title{
+    font-size: 50px;
+    color: #222222;
+    font-family: "poppins-semibold";
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+.why-text{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+    max-width: 621px;
+    line-height: 32px;
+}
+.border-red{
+    border-bottom: 1px solid #ff3c2d;
+}
+
+.black-block-why{
+    padding: 43px 80px;
+    width: 100%;
+    background-color: #222222;
+}
+.black-block-title{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    font-family: "poppins-semibold";
+    margin-bottom: 32px;
+}
+.black-block-text{
+    font-size: 18px;
+    color: #fff;
+    font-family: "poppins-Light";
+    margin-bottom: 45px;
+}   
+.black-block-text:last-child{
+    margin-bottom: 0;
+}
+
+.thahu-card-wrapper{
+    width: 25%;
+    padding: 0 15px;
+}
+.thahu-5{
+    margin-bottom: 76px;
+}
+.thahu-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thahu-card{
+    /* width: 100%; */
+    /* max-width: 350px; */
+    /* -ms-display: flex; */
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 19px;
+    padding-bottom: 10px;
+}
+.thahu-card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 71px;
+    height: 51px;
+    margin-bottom: 30px;
+}
+.thahu-card-img img{
+    /* width: 100%; */
+    /* height: 100%; */
+}
